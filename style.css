@@ -1,0 +1,29 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: url(https://cdn.glitch.com/d5c8fdea-64dc-4f28-b1db-3fcfb2e5a5de%2Fbackgound.png?v=1592346652983);
+}
+
+h1 {
+  font-style: bold;
+  color: #42b9f5;
+}
+
+h2 {
+  margin-top: 2em; 
+}
+
+.question {
+  display: flex;
+  margin-top: 2em;
+}
+  
+.answer-choice img {
+  height: 10em;
+}
+
+body {
+ background-image: url(https://cdn.glitch.com/d5c8fdea-64dc-4f28-b1db-3fcfb2e5a5de%2Fbackgound.png?v=1592346652983);
+}
