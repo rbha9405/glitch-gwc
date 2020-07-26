@@ -1,0 +1,14 @@
+iframe {
+  height: 300px;
+  width: 300px;
+  resize: both;
+  overflow: auto;
+}
+
+div 
+{ 
+  color: white; 
+  background-color: 009900; 
+  margin: 2px; 
+  font-size: 25px; 
+} 

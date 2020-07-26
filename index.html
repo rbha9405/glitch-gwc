@@ -1,106 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Personality Quiz Starter Code</title>
+    <title>My Cause</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- import the webpage's stylesheet -->
+    <!-- import the webpage's stylesheets -->
     <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/resources.css" />
+    <link rel="stylesheet" href="/take-action.css" />
 
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
+
+    <!-- Add your Google fonts here -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-    <h1>What food are you?</h1>
+    <nav>
+      <!-- Add the nav bar here-->
+      <ul class="nav-bar">
+        <li class="nav"><a href="resources.html">Resources</a></li>
+        <li class="nav"><a href="take-action.html">Take Action</a></li>
+        <li class="nav"><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
 
-    <h2>What time is your favorite time of day?</h2>
-    <div class="question">
-      <div class="answer-choice">
-        <img
-          src="https://cdn.glitch.com/e80b2544-111a-4ca5-8c34-65a03b482deb%2Fmorning.jpg?v=1592452474734"
-        />
-        <br />
-        <button id="morning">Morning</button>
-      </div>
-      <div class="answer-choice">
-        <img
-          src="https://cdn.glitch.com/e80b2544-111a-4ca5-8c34-65a03b482deb%2Fafternoon.png?v=1592452458989"        />
-        <br />
-        <button id="afternoon">Afternoon</button>
-      </div>
-      <div class="answer-choice">
-        <img
-          src="https://cdn.glitch.com/e80b2544-111a-4ca5-8c34-65a03b482deb%2Fevening.jpeg?v=1592452463566"        
-             <br />
-             <button id="evening">Evening</button>
-      </div>
-      <div class="answer-choice">
-        <img
-          src="https://cdn.glitch.com/e80b2544-111a-4ca5-8c34-65a03b482deb%2Fmidnight.jpg?v=1592452471003"        />
-        <br />
-        <button id="midnight">Midnight</button>
+    <!------------------------------->
+    <!---------TOP SECTION----------->
+    <!------------------------------->
+    <!--Top section with title and description-->
+    <div class="main-message">
+      <div class="flex-container">
+        <div class="heading-home">
+          SELF DEFENSE EDUCATION = CONFIDENT TEEN GIRLS
+      
+        </div>
+        <div class="intro-text">
+          Teach our young girls to be able to defend themselves
+        </div>
       </div>
     </div>
 
-    <h2>Do you prefer...</h2>
-    <div class="question">
-      <div class="answer-choice">
-        <img
-          src="https://cdn.glitch.com/e80b2544-111a-4ca5-8c34-65a03b482deb%2Fsweet.webp?v=1592452490267"        />
-        <br />
-        <button id="sweet">Sweet</button>
-      </div>
-      <div class="answer-choice">
-        <img
-          src="https://cdn.glitch.com/e80b2544-111a-4ca5-8c34-65a03b482deb%2Fsalty.jpg?v=1592452479991"        />
-        <br />
-        <button id="salty">Salty</button>
-      </div>
-      <div class="answer-choice">
-        <img
-          src="https://cdn.glitch.com/e80b2544-111a-4ca5-8c34-65a03b482deb%2Fspicy.jpeg?v=1592452482399"        />
-        <br />
-        <button id="spicy">Spicy</button>
-      </div>
-      <div class="answer-choice">
-        <img
-          src="https://cdn.glitch.com/e80b2544-111a-4ca5-8c34-65a03b482deb%2Ftangy.jpg?v=1592452491362"        />
-        <br />
-        <button id="tangy">Tangy</button>
-      </div>
+    <!------------------------------->
+    <!----------SECTION 1------------>
+    <!------------------------------->
+    <!--Text section-->
+    <div class="text-section">
+      <h2>
+        Self Defense is a valubale life skill
+      </h2>
+      <p>
+        Self-defense is a set of skills that allows one to defend themselves by
+        engaging in physical combat. But in truth, this type of training
+        incorporates far more than its physical elements. In its true form,
+        self-defense training enhances people’s mental awareness, helps them
+        identify and prevent acts of crime, and opens up a person to a
+        healthier, confident approach to life.
+      </p>
     </div>
 
-    <h2>Pick a Residence!</h2>
-    <div class="question">
-      <div class="answer-choice">
-        <img
-          src="https://cdn.glitch.com/e80b2544-111a-4ca5-8c34-65a03b482deb%2Fmansion.jpg?v=1592452466755"        />
-        <br />
-        <button id="mansion">Mansion</button>
-      </div>
-      <div class="answer-choice">
-        <img
-          src="https://cdn.glitch.com/e80b2544-111a-4ca5-8c34-65a03b482deb%2Fapartment.jpg?v=1592452459014"        />
-        <br />
-        <button id="apartment">Apartment</button>
-      </div>
-      <div class="answer-choice">
-        <img
-          src="https://cdn.glitch.com/e80b2544-111a-4ca5-8c34-65a03b482deb%2Fvacation%20home.jpg?v=1592452494210"        />
-        <br />
-        <button id="vacation home">Vacation Home</button>
-      </div>
-      <div class="answer-choice">
-        <img
-          src="https://cdn.glitch.com/e80b2544-111a-4ca5-8c34-65a03b482deb%2Fhouse.jpg?v=1592528787455"        <br />
-        <button id="house">House</button>
-      </div>
+    <!--Image 1-->
+    <div class="image-one"></div>
+
+    <!------------------------------->
+    <!----------SECTION 2------------>
+    <!------------------------------->
+    <!--Text section-->
+    <div class="text-section">
+      <h2>
+        Benefits of Self Defense Knowledge (1) Teaches fitness and other
+        physical skills (2) Teaches Self Discipline (3) Improves Self Confidence
+      </h2>
     </div>
 
-    <div class="result">
-      <h2 id="result">Your result is...</h2>
+    <!--Image 2-->
+    <div class="image-two"></div>
+
+    <!------------------------------->
+    <!----------SECTION 3------------>
+    <!------------------------------->
+    <!--Text section-->
+    <div class="text-section">
+      <h2>
+        Violent Crime and bullying is getting more prevalent in society.
+      </h2>
+      <p>
+        Did you know that over 750,000 students in the U.S. aged from 12-18
+        years have directly experienced violent crimes? Teaching girls self defense could significantly
+        decrease those numbers.
+      </p>
+    </div>
+
+    <!--Image 3-->
+    <div class="image-three"></div>
+
+    <!------------------------------->
+    <!----------SECTION 4------------>
+    <!------------------------------->
+    <!--Text section-->
+    <div class="text-section">
+      <h2>
+        It's a necessary skill
+      </h2>
+      <p>
+        Self Distance Education should be part of the Physical Education
+        Curriculum. In today's world, it must be embedded into
+        everyday life.
+        <br />
+        <br />
+        Contact school boards today to ask for implementation of self defense 
+        into physical education.
+      </p>
+    </div>
+
+    <!--Image 4-->
+    <div class="image-four"></div>
+
+    <!------------------------------->
+    <!---------BOTTOM TEXT----------->
+    <!------------------------------->
+    <!--Text section only-->
+    <div class="text-section">
+      <h2>
+        Now more than ever we need our School Boards to take action.
+      </h2>
+      <p>
+        
+      </p>
     </div>
   </body>
 </html>

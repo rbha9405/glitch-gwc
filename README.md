@@ -1,51 +1,72 @@
-## Personality Quiz Starter Project
+# Activist Toolkit Project
 
-Remix this starter code or just use it to see how you might get started on your personality quiz.
-
-Click `Show` in the header to see your app live. We recommend choosing the `Next to Code` option so you can view updates to your webpage side-by-side to your code. 
-
-Updates to your code will instantly deploy and update live.
+This is an example project website with extensions. See the extensions section for which ones are included.
 
 ## Project Requirements
-Your quiz should:
 
-* Have at least three questions.
-* Have at least four choices per question.
-* Allow the user to select an answer choice by clicking a button or photo.
-* Produce different results for different combinations of selections.
+You will:
 
-## Project Extensions
-Once you meet the basic requirements, you might:
+- Build a multipage website using HTML, CSS, and JavaScript.
+- Use CSS and background image properties to create a parallax scroll effect on the homepage of your website.
+- Use the DOM, event listeners, conditionals, and functions in JavaScript to build a checklist that allows people to mark an item as complete.
+- Use flexbox to layout your website.
+- Customize the look and feel of your site through colors, images, and fonts using CSS.
+- Use comments to describe your code.
 
-* **Extension 1:** Lengthen your quiz with more questions.
-* **Extension 2:** Allow the user to retake or restart the quiz.
-* **Extension 3:** Change your JavaScript to disable buttons after the user has selected an answer.
-* **Extension 4:** Improve the user experience of your quiz.
-* **Extension 5:** Make your website more accessible.
-* **Extension 6:** Change your JavaScript to allow a user to change their selections at any point before they finish the quiz.
+## Extensions
 
-## Starter Code File Overview
+You can extend your project further by:
 
-### ← README.md
+- Customizing the CSS of your site.
+- Adding accessibility features to your website.
+- Adding a resources page where your audience can get more information.
+- Adding social media buttons so your audience can spread the word.
+- Adding additional media like videos, audio, image galleries, etc. to enhance your message.
 
-That's this file, where you can tell people what your cool website does and how you built it. You can also include instructions on how to run your quiz!
+## Image Attributions
+Homepage
+- Image of young person in classroom. From [Pixabay](https://pixabay.com/photos/education-people-school-child-3189934/) with [Pixabay license](https://pixabay.com/service/license/).
+- Image of hands typing from [#WOCinTech](https://www.flickr.com/photos/wocintechchat/25926572291/) with Creative Commons Attribution licencse.
+- Image of student in library. From [Pixabay](https://pixabay.com/photos/library-study-alone-reading-male-2414380/) with [Pixabay license](https://pixabay.com/service/license/).
+- Image of girl with laptop. From [Pixabay](https://pixabay.com/photos/apple-computer-girl-iphone-laptop-1853337/) with [Pixabay license](https://pixabay.com/service/license/).
+- Image of young person in classroom with mask. From [Pixabay](https://pixabay.com/photos/class-corona-mouth-guard-students-5120412/) with [Pixabay license](https://pixabay.com/service/license/).
 
-### ← index.html
+Take Action Page
+- Image of hands typing from [#WOCinTech](https://www.flickr.com/photos/wocintechchat/25926572291/) with Creative Commons Attribution licencse.
 
-Where you'll write the content of your personality quiz and code the layout for each element.
-The layout for all three questions have already been done for you, but if you want to add more questions you will need to edit this file. 
+# Starter Code File Overview
 
-### ← style.css
+Your full activity instructions are in HQ, but here's a little cheat-sheet of the files in this project:
 
-CSS files add styling rules to your content. Once you finished programming your personality quiz add some styling to make your quiz look professional! 
-We highly encourage you to try to google some styling for your images! Don't forget to change up the colors and fonts of your website!
+## ← index.html
 
-### ← script.js
+This is your homepage. It should be the first page that you work on.
 
-We will be working mainly in this file to add interactivity to the buttons on our quiz! You will learn how to code variables, conditionals, events, event listeners, and functions in Javascript.
+## ← about.html
 
-### ← assets
+This will be your about page.
 
-Drag in `assets`, like images or music, to add them to your project. You can use images online and grab their URL Address or use some of your own images.
+## ← take-action.html
 
-Be sure that your images can be accessed digitally. If you want to use print photos, take a picture of it and then upload them in the assets folder.
+This will hold your action item checklist and action description.
+
+## ← script.js
+
+Later this week, you'll edit this file to create your checklist.
+
+## ← styles.css
+
+ThIS file contains the CSS rule sets for index.html and any universal elements for all pages.
+We've already included a lot of them for you, but you should customize it as you want.
+
+## ← about.css
+
+This file contains the CSS rule set for about.html.
+
+## ← take-action.css
+
+This file contains the CSS rule set for take-action.html.
+
+---
+
+###### *NOTE: This project is adapted from the How To Create a To Do List by W3 Schools*
